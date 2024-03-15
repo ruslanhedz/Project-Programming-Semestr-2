@@ -1,1 +1,1 @@
-"# Trying-2" 
+"Object programing projekt form my second semestr" 
