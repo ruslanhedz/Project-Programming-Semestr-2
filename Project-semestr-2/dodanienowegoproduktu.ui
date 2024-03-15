@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DodanieNowegoProduktu</class>
+ <widget class="QDialog" name="DodanieNowegoProduktu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>801</width>
+    <height>559</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>411</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="labelTyp">
+        <property name="text">
+         <string>Typ produktu</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="TypProduktu">
+        <item>
+         <property name="text">
+          <string>Tasmy</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Bluzy</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>HDD</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Kolanki</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Sluchawki</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Koszulki</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Reczniki</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>SSD</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Inne</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="labelLP">
+        <property name="text">
+         <string>Liczba Porządkowa</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="EditLP"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLabel" name="labelNazwa">
+        <property name="text">
+         <string>Nazwa</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="EditNazwa"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QLabel" name="labelDostepnaIlosc">
+        <property name="text">
+         <string>Ilość w magazynie</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditDostepnaIlosc"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <item>
+       <widget class="QLabel" name="labelIloscnaamazonie">
+        <property name="text">
+         <string>Ilość na amazonie</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditIloscnaamazonie"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_6">
+      <item>
+       <widget class="QLabel" name="labelKategoria">
+        <property name="text">
+         <string>Kategoria Produktu</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditKategoria"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_7">
+      <item>
+       <widget class="QLabel" name="labelProducent">
+        <property name="text">
+         <string>Producent</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditProducent"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_8">
+      <item>
+       <widget class="QLabel" name="labelWaga">
+        <property name="text">
+         <string>Waga(g):</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditWaga"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_9">
+      <item>
+       <widget class="QLabel" name="labelKolor">
+        <property name="text">
+         <string>Kolor</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditKolor">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_10">
+      <item>
+       <widget class="QLabel" name="labelCena">
+        <property name="text">
+         <string>Cena</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditCena"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_11">
+      <item>
+       <widget class="QLabel" name="labelVat">
+        <property name="text">
+         <string>Vat</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditVat"/>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>40</y>
+     <width>361</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout"/>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>310</y>
+     <width>361</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Dodać</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ZgenerujLP">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>10</y>
+     <width>341</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Zgeneruj liczbę podatkową</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>790</width>
+    <height>653</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QPushButton" name="ListaproduktowButton">
+          <property name="text">
+           <string>Pokaż listę wszystkich produktów</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="Listadostepnych">
+          <property name="text">
+           <string>Lista dostępnych produktów</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="ListaAmazon">
+          <property name="text">
+           <string>Lista dostępnych produktów na amazonie</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="ListaDostaw">
+          <property name="text">
+           <string>Lista Dostaw</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="ListaNadan">
+          <property name="text">
+           <string>Lista najbliższych nadań</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="BazaFaktur">
+          <property name="text">
+           <string>Baza faktur</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="WypelnicFakture">
+          <property name="text">
+           <string>Wypełnić nową fakturę</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QPushButton" name="ZapisacButton">
+        <property name="text">
+         <string>Zapisać</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>790</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <addaction name="actionDoda_produkt"/>
+    <addaction name="actionZnale_Produkt"/>
+    <addaction name="actionPokaza_list_produkt_w"/>
+   </widget>
+   <addaction name="menuFile"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionDoda_produkt">
+   <property name="text">
+    <string>Dodać Produkt</string>
+   </property>
+  </action>
+  <action name="actionZnale_Produkt">
+   <property name="text">
+    <string>Znaleźć Produkt</string>
+   </property>
+  </action>
+  <action name="actionPokaza_list_produkt_w">
+   <property name="text">
+    <string>Pokazać listę produktów</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

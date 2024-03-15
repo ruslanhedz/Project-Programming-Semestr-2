@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DodacDostawe</class>
+ <widget class="QDialog" name="DodacDostawe">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>712</width>
+    <height>409</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_5">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QLabel" name="labelNazwa">
+         <property name="text">
+          <string>Nazwa Produktu: </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboBox"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QLabel" name="LabelLP">
+         <property name="text">
+          <string>LP: </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="LPGeneral">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <widget class="QLabel" name="LabelTyp">
+         <property name="text">
+          <string>Typ: </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="TypGeneral">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QLabel" name="LabelDzien">
+           <property name="text">
+            <string>Dzień dostawy: </string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="LabelMiesiac">
+           <property name="text">
+            <string>Miesiąc dostawy: </string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="LabelRok">
+           <property name="text">
+            <string>Rok dostawy: </string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="LabelIlosc">
+           <property name="text">
+            <string>Ilość: </string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QLineEdit" name="LineEditDzien"/>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="LineEditMiesiac"/>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="LineEditRok"/>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="LineEditIlosc"/>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>Dodać</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

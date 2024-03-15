@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ProduktInfo</class>
+ <widget class="QDialog" name="ProduktInfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>798</width>
+    <height>526</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>771</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QPushButton" name="EdytowacButton">
+      <property name="text">
+       <string>Edytować produkt</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="UsunacButton">
+      <property name="text">
+       <string>Usunąć produkt</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>771</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="LiczbaPodatkowaLabel">
+        <property name="text">
+         <string>Liczba Porządkowa: </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="NazwaLabel">
+        <property name="text">
+         <string>Nazwa: </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="DostepnaIloscLabel">
+        <property name="text">
+         <string>Dostępna Ilość: </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="IloscNaAmazonieLabel">
+        <property name="text">
+         <string>Ilość na Amazonie: </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="KategoriaProduktuLabel">
+        <property name="text">
+         <string>Kategoria produktu: </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="ProducentLabel">
+        <property name="text">
+         <string>Producent: </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="WagaLabel">
+        <property name="text">
+         <string>Waga: </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="KolorLabel">
+        <property name="text">
+         <string>Kolor: </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="CenaLabel">
+        <property name="text">
+         <string>Cena: </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="VATLabel">
+        <property name="text">
+         <string>VAT</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

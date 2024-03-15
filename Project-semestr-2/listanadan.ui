@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ListaNadan</class>
+ <widget class="QDialog" name="ListaNadan">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>832</width>
+    <height>575</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_3">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QPushButton" name="DodacNadanieButton">
+           <property name="text">
+            <string>Dodać nadanie</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="UsunacNadanieButton">
+           <property name="text">
+            <string>Usunać nadanie</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="DodacNaTaSamaDateIAdressButton">
+           <property name="text">
+            <string>Dodać nadanie na tą samą datę i adres</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QPushButton" name="DodacNaTaSamaDateButton">
+           <property name="text">
+            <string>Dodać nadanie na tą samą datę</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="DodacNaTenSamAdressButton">
+           <property name="text">
+            <string>Dodać nadanie na ten sam adres</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="NadaneButton">
+           <property name="text">
+            <string>Nadane</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QListWidget" name="listWidget"/>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

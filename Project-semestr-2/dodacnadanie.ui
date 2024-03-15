@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DodacNadanie</class>
+ <widget class="QDialog" name="DodacNadanie">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>489</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_4">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_4">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLabel" name="NazwaLabel">
+           <property name="text">
+            <string>Nazwa Produktu: </string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QLabel" name="LPLabel">
+           <property name="text">
+            <string>LP Produktu: </string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="LPGeneral">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QLabel" name="DzienLabel">
+           <property name="text">
+            <string>Dzień nadania</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="MiesiacLabel">
+           <property name="text">
+            <string>Miesiąc nadania</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="RokLabel">
+           <property name="text">
+            <string>Rok nadania</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="IloscLabel">
+           <property name="text">
+            <string>Ilość sztuk w nadaniu</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="AdresLabel">
+           <property name="text">
+            <string>Adres nadania: </string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QLineEdit" name="LineEditDzien"/>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="LineEditMiesiac"/>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="LineEditRok"/>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="LineEditIlosc"/>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="LineEditAdres"/>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>PushButton</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

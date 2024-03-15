@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PokazFaktury</class>
+ <widget class="QDialog" name="PokazFaktury">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>635</width>
+    <height>754</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>21</y>
+     <width>611</width>
+     <height>731</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_5">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="NumerLabel">
+        <property name="text">
+         <string>Number faktury: </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="DataLabel">
+        <property name="text">
+         <string>Data zapełniania: </string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>Sprzedawca</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="NIPSprzedawcyLabel">
+          <property name="text">
+           <string>NIP:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="ImieSprzedawcyLabel">
+          <property name="text">
+           <string>Imię: </string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="NazwiskoSprzedawcyLabel">
+          <property name="text">
+           <string>Nazwisko: </string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="NazwaFirmySprzedawcy">
+          <property name="text">
+           <string>Nazwa firmy: </string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="AdresSprzedawcyLabel">
+          <property name="text">
+           <string>Adres: </string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QLabel" name="label_2">
+          <property name="text">
+           <string>Nabywca</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="NIPNabywcyLabel">
+          <property name="text">
+           <string>NIP: </string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="ImieNabywcyLabel">
+          <property name="text">
+           <string>Imię: </string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="NazwiskoNabywcyLabel">
+          <property name="text">
+           <string>Nazwisko: </string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="NazwaFirmyNabywcyLabel">
+          <property name="text">
+           <string>Nazwa firmy: </string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="AdresNabywcyLabel">
+          <property name="text">
+           <string>Adres: </string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <layout class="QVBoxLayout" name="VerticalLP">
+          <item>
+           <widget class="QLabel" name="label_3">
+            <property name="text">
+             <string>LP</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="NazwaVertical">
+          <item>
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>Nazwa</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="IloscVertical">
+          <item>
+           <widget class="QLabel" name="label_5">
+            <property name="text">
+             <string>Ilość</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="CenaVertical">
+          <item>
+           <widget class="QLabel" name="label_6">
+            <property name="text">
+             <string>Cena jednostkowa</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="WartoscVertical">
+          <item>
+           <widget class="QLabel" name="label7">
+            <property name="text">
+             <string>Wartość produktu</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="RazemLabel">
+        <property name="text">
+         <string>Razem: </string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <widget class="QLabel" name="BankLabel">
+        <property name="text">
+         <string>Bank: </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="NumerKontaLabel">
+        <property name="text">
+         <string>Numer konta: </string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
